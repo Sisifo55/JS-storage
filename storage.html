@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Contacto</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="storage.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Formulario de Contacto</h2>
+    <form id="contactForm">
+      <div>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="savedContacts">
+      <!-- Aquí se mostrarán los contactos guardados -->
+    </div>
+    <button id="clearContacts">Borrar Todos los Contactos</button>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
